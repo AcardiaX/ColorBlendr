@@ -1,3 +1,9 @@
+>[!NOTE]
+>
+>Foolishly made some color adjustments to suit my personal preferences.
+
+---
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/Mahmud0808/ColorBlendr/master/.github/resources/banner.png" width="100%" alt="Banner">
 
