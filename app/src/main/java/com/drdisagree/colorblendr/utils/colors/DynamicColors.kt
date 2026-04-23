@@ -37,7 +37,7 @@ object DynamicColors {
             ColorMapping(
                 resourceName = "on_primary_container",
                 tonalPalette = TonalPalette.PRIMARY,
-                lightModeColorIndex = 11,
+                lightModeColorIndex = 9,
                 darkModeColorIndex = 3
             ),
             ColorMapping(
@@ -49,8 +49,9 @@ object DynamicColors {
             ColorMapping(
                 resourceName = "on_primary",
                 tonalPalette = TonalPalette.PRIMARY,
-                lightModeColorIndex = 0,
-                darkModeColorIndex = 10
+                lightModeColorIndex = 2,
+                darkModeColorIndex = 10,
+                lightModeLightnessAdjustment = 3
             ),
             ColorMapping(
                 resourceName = "secondary_container",
@@ -61,7 +62,7 @@ object DynamicColors {
             ColorMapping(
                 resourceName = "on_secondary_container",
                 tonalPalette = TonalPalette.SECONDARY,
-                lightModeColorIndex = 11,
+                lightModeColorIndex = 9,
                 darkModeColorIndex = 3
             ),
             ColorMapping(
@@ -73,8 +74,9 @@ object DynamicColors {
             ColorMapping(
                 resourceName = "on_secondary",
                 tonalPalette = TonalPalette.SECONDARY,
-                lightModeColorIndex = 0,
-                darkModeColorIndex = 10
+                lightModeColorIndex = 2,
+                darkModeColorIndex = 10,
+                lightModeLightnessAdjustment = 3
             ),
             ColorMapping(
                 resourceName = "tertiary_container",
@@ -85,7 +87,7 @@ object DynamicColors {
             ColorMapping(
                 resourceName = "on_tertiary_container",
                 tonalPalette = TonalPalette.TERTIARY,
-                lightModeColorIndex = 11,
+                lightModeColorIndex = 9,
                 darkModeColorIndex = 3
             ),
             ColorMapping(
@@ -102,98 +104,100 @@ object DynamicColors {
             ),
             ColorMapping(
                 resourceName = "background",
-                tonalPalette = TonalPalette.NEUTRAL,
-                lightModeColorIndex = 1,
+                tonalPalette = TonalPalette.NEUTRAL_VARIANT,
+                lightModeColorIndex = 2,
                 darkModeColorIndex = 11,
-                lightModeLightnessAdjustment = -1,
-                darkModeLightnessAdjustment = -25
+                lightModeLightnessAdjustment = 3,
+                darkModeLightnessAdjustment = -41
             ),
             ColorMapping(
                 resourceName = "on_background",
                 tonalPalette = TonalPalette.NEUTRAL,
                 lightModeColorIndex = 11,
-                darkModeColorIndex = 1
+                darkModeColorIndex = 3
             ),
             ColorMapping(
                 resourceName = "surface",
-                tonalPalette = TonalPalette.NEUTRAL,
-                lightModeColorIndex = 1,
+                tonalPalette = TonalPalette.NEUTRAL_VARIANT,
+                lightModeColorIndex = 2,
                 darkModeColorIndex = 11,
-                lightModeLightnessAdjustment = -1,
-                darkModeLightnessAdjustment = -25
+                lightModeLightnessAdjustment = 3,
+                darkModeLightnessAdjustment = -41
             ),
             ColorMapping(
                 resourceName = "on_surface",
                 tonalPalette = TonalPalette.NEUTRAL,
-                lightModeColorIndex = 10,
-                darkModeColorIndex = 2
+                lightModeColorIndex = 11,
+                darkModeColorIndex = 3
             ),
             ColorMapping(
                 resourceName = "surface_container_lowest",
                 tonalPalette = TonalPalette.NEUTRAL,
-                lightModeColorIndex = 2,
-                darkModeColorIndex = 10,
-                lightModeLightnessAdjustment = 3,
-                darkModeLightnessAdjustment = -49
+                lightModeColorIndex = 0,
+                darkModeColorIndex = 11,
+                lightModeLightnessAdjustment = 0,
+                darkModeLightnessAdjustment = -60
             ),
             ColorMapping(
                 resourceName = "surface_container_low",
                 tonalPalette = TonalPalette.NEUTRAL,
                 lightModeColorIndex = 2,
-                darkModeColorIndex = 10,
+                darkModeColorIndex = 11,
                 lightModeLightnessAdjustment = 1,
-                darkModeLightnessAdjustment = -48
+                darkModeLightnessAdjustment = 0
             ),
             ColorMapping(
                 resourceName = "surface_container",
                 tonalPalette = TonalPalette.NEUTRAL,
-                lightModeColorIndex = 2,
-                darkModeColorIndex = 10,
-                lightModeLightnessAdjustment = -2,
-                darkModeLightnessAdjustment = -42
+                lightModeColorIndex = 3,
+                darkModeColorIndex = 11,
+                lightModeLightnessAdjustment = 5,
+                darkModeLightnessAdjustment = 18
             ),
             ColorMapping(
                 resourceName = "surface_container_high", // android 14+ notification bg color
                 tonalPalette = TonalPalette.NEUTRAL,
-                lightModeColorIndex = 1,
+                lightModeColorIndex = 3,
                 darkModeColorIndex = 10,
-                lightModeLightnessAdjustment = -4
+                lightModeLightnessAdjustment = 2,
+                darkModeLightnessAdjustment = -14
+
             ),
             ColorMapping(
                 resourceName = "surface_container_highest",
                 tonalPalette = TonalPalette.NEUTRAL,
-                lightModeColorIndex = 1,
+                lightModeColorIndex = 3,
                 darkModeColorIndex = 10,
-                lightModeLightnessAdjustment = -5,
-                darkModeLightnessAdjustment = 3
+                lightModeLightnessAdjustment = 0,
+                darkModeLightnessAdjustment = 11
             ),
             ColorMapping(
                 resourceName = "surface_bright",
-                tonalPalette = TonalPalette.NEUTRAL,
-                lightModeColorIndex = 1,
+                tonalPalette = TonalPalette.NEUTRAL_VARIANT,
+                lightModeColorIndex = 2,
                 darkModeColorIndex = 10,
-                lightModeLightnessAdjustment = -2,
-                darkModeLightnessAdjustment = 13
+                lightModeLightnessAdjustment = 3,
+                darkModeLightnessAdjustment = 18
             ),
             ColorMapping(
                 resourceName = "surface_dim", // android 14+ notification scrim color
                 tonalPalette = TonalPalette.NEUTRAL,
-                lightModeColorIndex = 1,
+                lightModeColorIndex = 3,
                 darkModeColorIndex = 11,
-                lightModeLightnessAdjustment = -9,
-                darkModeLightnessAdjustment = 7
+                lightModeLightnessAdjustment = -3,
+                darkModeLightnessAdjustment = -38
             ),
             ColorMapping(
                 resourceName = "surface_variant",
                 tonalPalette = TonalPalette.NEUTRAL_VARIANT,
-                lightModeColorIndex = 2,
+                lightModeColorIndex = 3,
                 darkModeColorIndex = 10
             ),
             ColorMapping(
                 resourceName = "on_surface_variant",
                 tonalPalette = TonalPalette.NEUTRAL_VARIANT,
-                lightModeColorIndex = 10,
-                darkModeColorIndex = 2
+                lightModeColorIndex = 9,
+                darkModeColorIndex = 4
             ),
             ColorMapping(
                 resourceName = "outline",
